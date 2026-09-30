@@ -1,0 +1,5 @@
+userId,username,firstName,lastName,email,isActive,projectsLogged
+usr_94f8a2bc,alex_dev99,Alex,Morgan,alex.morgan@example.com,True,2
+usr_33b1c7da,sam_qa,Sam,Rivera,sam.rivera@example.com,True,5
+usr_77e4f11b,clara_manager,Clara,Chen,clara.chen@example.com,False,0
+usr_55d9b2ee,jordan_ops,Jordan,Smith,jordan.smith@example.com,True,3

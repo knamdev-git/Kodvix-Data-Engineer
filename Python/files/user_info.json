@@ -1,0 +1,60 @@
+[
+    {
+        "userId": "usr_94f8a2bc",
+        "username": "alex_dev99",
+        "isActive": true,
+        "profile": {
+            "firstName": "Alex",
+            "lastName": "Morgan",
+            "email": "alex.morgan@example.com"
+        },
+        "roles": [
+            "developer",
+            "team-lead"
+        ],
+        "projectsLogged": 2
+    },
+    {
+        "userId": "usr_33b1c7da",
+        "username": "sam_qa",
+        "isActive": true,
+        "profile": {
+            "firstName": "Sam",
+            "lastName": "Rivera",
+            "email": "sam.rivera@example.com"
+        },
+        "roles": [
+            "qa-engineer"
+        ],
+        "projectsLogged": 5
+    },
+    {
+        "userId": "usr_77e4f11b",
+        "username": "clara_manager",
+        "isActive": false,
+        "profile": {
+            "firstName": "Clara",
+            "lastName": "Chen",
+            "email": "clara.chen@example.com"
+        },
+        "roles": [
+            "product-manager",
+            "admin"
+        ],
+        "projectsLogged": 0
+    },
+    {
+        "userId": "usr_55d9b2ee",
+        "username": "jordan_ops",
+        "isActive": true,
+        "profile": {
+            "firstName": "Jordan",
+            "lastName": "Smith",
+            "email": "jordan.smith@example.com"
+        },
+        "roles": [
+            "devops-engineer"
+        ],
+        "projectsLogged": 3
+    }
+]
