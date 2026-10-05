@@ -25,4 +25,3 @@ class My_Math :
     @staticmethod
     def add(a,b) : 
         return a + b
-
