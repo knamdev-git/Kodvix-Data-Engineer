@@ -1,15 +1,26 @@
-# we have basic int number which is not iterator 
-number = 2133
-# print(number)
+# # we have basic int number which is not iterator 
+# number = 2133
+# # print(number)
 
-# trying to iterator in number 
-'''
-for i in number : 
-    print(number)            <--- throw an error 
-'''                 
+# # trying to iterator in number 
+# '''
+# for i in number : 
+#     print(number)            <--- throw an error 
+# '''                 
 
-iterable = [number]
-for i in iterable : 
-    print(i,"-")
+# iterable = [number]
+# for i in iterable : 
+#     print(i,"-")
 
-# we have to make integer value iterable object first then we can do that 
+# # we have to make integer value iterable object first then we can do that 
+
+def outer() : 
+    def inner() :
+        print("Inner")
+        return 2
+
+    print("Outer")
+    return type(inner) 
+
+inner = outer()
+print("This is",inner())

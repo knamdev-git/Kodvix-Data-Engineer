@@ -16,5 +16,5 @@ s3 = Student("Todoroki", 3, 7.21, "XYZ")
 
 students_list = [s1,s2,s3]
 
-sorted_students = sorted(students_list, key=lambda s : s.cgpa, reverse=True)
+sorted_students = sorted(students_list, key=lambda s : s.cgpa, reverse=True) 
 print([f"{student.name} {student.cgpa}" for student in sorted_students])
