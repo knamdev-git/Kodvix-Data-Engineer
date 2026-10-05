@@ -25,3 +25,9 @@ print("Pi value :",nm.pi)
 radii = nm.array([1,2,3])
 
 print("Radius :",radii * nm.pi)
+
+
+array1 = nm.array([1,2,3])
+array2 = nm.array([4,5,6])
+
+print(array1 * array2) #perform the operation between two arrays 
