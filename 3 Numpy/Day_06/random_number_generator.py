@@ -26,4 +26,3 @@ print(type(numeric_random_generator_list))
 fruits = np.array(["apple", "cherry", "banana", "berries", "Strawberry"])
 # print(random_numbers.choice(fruits))
 print(random_numbers.choice(fruits, size=2))
-
