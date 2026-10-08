@@ -5,7 +5,7 @@ class Data :
     "employee_id": [101, 102, 103, 104, 105, 106, 107, 108],
     "name": ["Rahul", "Priya", "Amit", "Neha", "Raj", "Sneha", "Vikas", "Anjali"],
     "department_id": [1, 2, 1, 3, 2, 3, 1, 2],
-    "salary": [45000, 52000, 48000, 60000, 55000, None, 47000, 52000],
+    "salary": [45000, 52000, 48000, 60000, 55000, None, 47000, 55000],
     "experience": [2, 3, 2, 5, 4, 6, None, 3],
     "city": ["Indore", "Delhi", "Pune", "Mumbai", "Delhi", "Pune", "Indore", "Delhi"]
 })
