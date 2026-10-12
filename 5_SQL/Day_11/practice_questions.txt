@@ -1,0 +1,92 @@
+Part 1 — Aggregate Functions
+[x] 1. Count the total number of employees.
+
+[x] 2. Calculate the average salary of all employees.
+
+[x] 3. Find the highest salary and lowest salary.
+
+[x] 4. Calculate the total salary paid to all employees.
+
+[x] 5. Count how many employees work in IT.
+
+[x] 6. Find the average salary of employees living in Indore.
+
+[x] 7. Count the number of distinct cities in the employees table.
+
+[x] 8. Find the difference between the highest and lowest salaries.
+
+
+
+Part 2 — GROUP BY
+[x] 9. Count the employees in each department.
+
+[x] 10. Calculate the average salary for each department.
+
+[x] 11. Find the total salary expense for each city.
+
+[x] 12. Find the maximum salary in each department.
+
+[x] 13. Count employees in each city.
+
+[x] 14. Calculate the average salary for each city and department combination.
+
+[x] 15. Find the minimum salary for each department.
+
+[x] 16. Count how many employees earn each distinct salary.
+
+
+
+Part 3 — HAVING
+[x] 17. Find departments with more than 2 employees.
+
+[x] 18. Find departments whose average salary is greater than ₹50,000.
+
+[x] 19. Find cities with at least 2 employees.
+
+[x] 20. Find departments whose total salary expense exceeds ₹100,000.
+
+[x] 21. Find departments where the maximum salary exceeds ₹60,000.
+
+[x] 22. Find cities whose average salary is below ₹50,000.
+
+[x] 23. Find salary values earned by more than one employee.
+
+[x] 24. Find departments with at least 3 employees and an average salary above ₹45,000.
+
+
+
+Part 4 — INNER JOIN and LEFT JOIN
+[x] 25. Display each employee's name and their department's manager.
+
+[x] 26. Display employee names, salaries, and department managers.
+
+[x] 27. Display all employees along with their department information.
+
+[x] 28. Find employees who belong to departments managed by Vikram.
+
+[x] 29. Display all departments and their employees, including departments with no employees.
+
+[x] 30. Find departments that have no employees using a LEFT JOIN.
+
+[x] 31. Count the employees in each department using a LEFT JOIN, including empty departments.
+
+[x] 32. Find employees whose department has no matching record in the departments table.
+
+
+
+Part 5 — Mixed Interview Practice
+[x] 33. Find the department with the highest average salary.
+
+[x] 34. Find the city with the largest number of employees.
+
+[x] 35. Find departments where the total salary is greater than the overall average employee salary multiplied by the number of employees in that department.
+
+[x] 36. Display each department's name, manager, employee count, and average salary.
+
+[x] 37. Find employees earning more than ₹50,000 and count how many such employees are in each department.
+
+[ ] 38. Find departments with more employees than the average employee count per department, counting only departments with employees.
+
+[ ] 39. Find the second-highest average salary among departments.
+
+[ ] 40. Find departments where every employee earns at least ₹40,000.
