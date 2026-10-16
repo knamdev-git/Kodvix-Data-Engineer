@@ -221,3 +221,48 @@ LEFT JOIN Products as p
 ON o.ProductID = p.ProductID
 LEFT JOIN Employees as s 
 ON s.EmployeeID = o.SalesPersonID;
+
+/*
+Task: Find all customers who have never placed an order.
+Requirements:
+- Display CustomerID, FirstName, and LastName.
+- Use the Customers and Orders tables.
+- Use a LEFT JOIN.
+- Do not use a subquery.
+*/
+Select * from Customers;
+select * from Orders;
+
+SELECT 
+c.CustomerID,
+c.FirstName, 
+c.LastName
+FROM Orders as o  
+RIGHT JOIN Customers as c
+ON o.CustomerID = c.CustomerID
+WHERE o.CustomerID IS NULL;
+
+
+/*
+Find all products that have never been ordered.
+Requirements:
+- Display ProductID, Product, and Price.
+- Use Products and Orders.
+- Use an Anti LEFT JOIN.
+- Do not use a subquery.
+*/
+INSERT INTO Products(Product, Category, Price)
+VALUES ('Watch','Accessories', 800);
+
+select * from Products ;
+select * from Orders;
+
+Select p.ProductID, 
+	   p.Product,
+	   p.Price
+FROM Products as p
+LEFT JOIN Orders as o
+ON p.ProductID = o.ProductID 
+WHERE o.ProductID IS NULL;
+       
+
