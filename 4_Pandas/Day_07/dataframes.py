@@ -93,9 +93,9 @@ dataframe.drop(columns=[column_name], inplace=True) # If you do not write inplac
 
 # instead we can do 
 dataframe = dataframe.drop(columns=["Hobbies"])
-print(f"=================== Removing {column_name} Column =============")
+print(f"=================== Removing {column_name} Column =====
+========")
 print(dataframe)
-
 '''
 # If we want to delete the rows only 
 dataframe = dataframe.drop(index=["Employee 1", "Employee 2"]) #inside index we'll pass the << label name >>> only
@@ -106,4 +106,3 @@ print(dataframe)
 print("========== Sorted Table ========")
 # print(dataframe.sort_values(["First Name", "Age"], ascending=[False,True]))
 print(dataframe.sort_values(["Age"], ascending=[False]))
-

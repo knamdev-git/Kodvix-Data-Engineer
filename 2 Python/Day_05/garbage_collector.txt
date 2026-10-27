@@ -1,0 +1,16 @@
+Garbage Collector : 
+
+    * Impot gc : contains actions to interact with grabage collector 
+    * Garbage Collection : automatically allocation and dellocation of the object 
+    * gc.collect : 
+        -> Trigger the gc process manually 
+
+
+
+Why we use garbage collector : 
+
+If we want to collect the data for large apps or social apps information then it can take many time so we manually clean the data to save our time 
+
+*   InmemoryIntensive
+*   Circular Situation 
+*   Complex data process

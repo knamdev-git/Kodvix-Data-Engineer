@@ -1,0 +1,6 @@
+customer_id,name,age,salary,city,join_date
+101,Rahul,25,"45,000",Indore,2024-01-10
+102, Priya ,,,Delhi,2024/02/15
+103,Amit,25,48000,,15-03-2024
+103,Amit,25,55000,pune,15-03-2024
+104,Neha,abc,,Mumbai,15-03-2024
